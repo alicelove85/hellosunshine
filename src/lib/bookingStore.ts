@@ -84,7 +84,7 @@ export function getRoomAvailability(
   const bookings = getBookings().filter(
     (b) =>
       b.roomId === roomId &&
-      b.status !== "cancelled" &&
+      b.status === "confirmed" &&
       new Date(b.checkIn) < checkOut &&
       new Date(b.checkOut) > checkIn
   );

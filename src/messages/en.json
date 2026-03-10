@@ -219,6 +219,15 @@
     "whatsappNote": "For quick questions, contact us on WhatsApp.",
     "whatsappCta": "Chat on WhatsApp"
   },
+  "bookingConfirm": {
+    "title": "Booking Confirmed",
+    "subtitle": "Your booking is confirmed. We will prepare everything for your stay.",
+    "bookingId": "Booking ID",
+    "guest": "Guest",
+    "room": "Room",
+    "dates": "Dates",
+    "backHome": "Back to Home"
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in touch",

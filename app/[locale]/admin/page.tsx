@@ -93,6 +93,12 @@ export default function AdminPage() {
     loadBookings();
   };
 
+  const handleConfirm = (booking: Booking) => {
+    updateBookingStatus(booking.id, "confirmed");
+    loadBookings();
+    window.location.href = `${basePath}/booking/confirmed?id=${booking.id}`;
+  };
+
   const handleDelete = (id: string) => {
     if (confirm("Are you sure you want to delete this booking?")) {
       deleteBooking(id);
@@ -422,9 +428,7 @@ export default function AdminPage() {
                             </button>
                             {booking.status === "pending" && (
                               <button
-                                onClick={() =>
-                                  handleStatusChange(booking.id, "confirmed")
-                                }
+                                onClick={() => handleConfirm(booking)}
                                 className="p-2 text-gray-400 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors"
                                 title="Confirm"
                               >
@@ -799,7 +803,7 @@ export default function AdminPage() {
                 {selectedBooking.status === "pending" && (
                   <button
                     onClick={() => {
-                      handleStatusChange(selectedBooking.id, "confirmed");
+                      handleConfirm(selectedBooking);
                       setSelectedBooking(null);
                     }}
                     className="flex-1 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-xl transition-colors"

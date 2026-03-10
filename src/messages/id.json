@@ -219,6 +219,15 @@
     "whatsappNote": "Untuk pertanyaan cepat, hubungi kami di WhatsApp.",
     "whatsappCta": "Chat di WhatsApp"
   },
+  "bookingConfirm": {
+    "title": "Pemesanan Dikonfirmasi",
+    "subtitle": "Pemesanan Anda sudah dikonfirmasi. Kami akan menyiapkan semuanya.",
+    "bookingId": "ID Pemesanan",
+    "guest": "Tamu",
+    "room": "Kamar",
+    "dates": "Tanggal",
+    "backHome": "Kembali ke Beranda"
+  },
   "contact": {
     "title": "Hubungi Kami",
     "subtitle": "Terhubung dengan kami",

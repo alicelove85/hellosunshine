@@ -224,6 +224,15 @@
     "whatsappNote": "빠른 문의는 WhatsApp으로 연결해 주세요.",
     "whatsappCta": "WhatsApp으로 문의하기"
   },
+  "bookingConfirm": {
+    "title": "예약 확정 완료",
+    "subtitle": "예약이 확정되었습니다. 안내된 일정에 맞춰 준비해 드릴게요.",
+    "bookingId": "예약 번호",
+    "guest": "예약자",
+    "room": "객실",
+    "dates": "날짜",
+    "backHome": "홈으로 돌아가기"
+  },
   "contact": {
     "title": "연락처",
     "subtitle": "문의하기",
