@@ -81,28 +81,28 @@ export default function AdminPage() {
     setIsAuthed(sessionStorage.getItem(AUTH_KEY) === "true");
   }, []);
 
-  const loadBookings = () => {
+  const loadBookings = async () => {
     setIsLoading(true);
-    const data = getBookings();
+    const data = await getBookings();
     setBookings(data.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()));
     setIsLoading(false);
   };
 
-  const handleStatusChange = (id: string, status: Booking["status"]) => {
-    updateBookingStatus(id, status);
-    loadBookings();
+  const handleStatusChange = async (id: string, status: Booking["status"]) => {
+    await updateBookingStatus(id, status);
+    await loadBookings();
   };
 
-  const handleConfirm = (booking: Booking) => {
-    updateBookingStatus(booking.id, "confirmed");
-    loadBookings();
+  const handleConfirm = async (booking: Booking) => {
+    await updateBookingStatus(booking.id, "confirmed");
+    await loadBookings();
     window.location.href = `${basePath}/booking/confirmed?id=${booking.id}`;
   };
 
-  const handleDelete = (id: string) => {
+  const handleDelete = async (id: string) => {
     if (confirm("Are you sure you want to delete this booking?")) {
-      deleteBooking(id);
-      loadBookings();
+      await deleteBooking(id);
+      await loadBookings();
       setSelectedBooking(null);
     }
   };

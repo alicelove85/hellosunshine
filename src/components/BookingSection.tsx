@@ -17,7 +17,12 @@ import {
   Plane,
 } from "lucide-react";
 import "react-day-picker/dist/style.css";
-import { addBooking, getRoomAvailability } from "@/lib/bookingStore";
+import {
+  addBooking,
+  getBookings,
+  getRoomAvailabilityFromBookings,
+  type Booking,
+} from "@/lib/bookingStore";
 import { getRoomSettings } from "@/lib/roomSettings";
 
 type RoomOption = {
@@ -43,6 +48,7 @@ export function BookingSection() {
   const [roomOptions, setRoomOptions] = useState<RoomOption[]>([]);
   const [selectedRoom, setSelectedRoom] = useState<string>("");
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
+  const [bookings, setBookings] = useState<Booking[]>([]);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -51,6 +57,11 @@ export function BookingSection() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+
+  const loadBookings = async () => {
+    const data = await getBookings();
+    setBookings(data);
+  };
 
   useEffect(() => {
     const settings = getRoomSettings();
@@ -65,6 +76,7 @@ export function BookingSection() {
       { id: "surferRoomC", name: tRooms("surferRoomC.name"), priceLabel: settings.surferRoomC.price, priceValue: parsePriceToNumber(settings.surferRoomC.price) },
     ];
     setRoomOptions(options);
+    loadBookings();
   }, [tRooms]);
 
   const selectedRoomData = roomOptions.find((r) => r.id === selectedRoom);
@@ -92,13 +104,19 @@ export function BookingSection() {
 
   const getAvailability = (roomId: string) => {
     if (!dateRange?.from || !dateRange?.to) return null;
-    return getRoomAvailability(roomId, dateRange.from, dateRange.to);
+    return getRoomAvailabilityFromBookings(
+      bookings,
+      roomId,
+      dateRange.from,
+      dateRange.to
+    );
   };
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     if (!selectedRoom || !dateRange?.from || !dateRange?.to || !selectedRoomData) return;
-    const availability = getRoomAvailability(
+    const availability = getRoomAvailabilityFromBookings(
+      bookings,
       selectedRoom,
       dateRange.from,
       dateRange.to
@@ -108,7 +126,7 @@ export function BookingSection() {
     setIsSubmitting(true);
     await new Promise((resolve) => setTimeout(resolve, 800));
 
-    addBooking({
+    await addBooking({
       roomId: selectedRoom,
       roomName: selectedRoomData.name,
       checkIn: dateRange.from.toISOString(),
@@ -122,6 +140,7 @@ export function BookingSection() {
       specialRequests: formData.requests,
       status: "pending",
     });
+    await loadBookings();
 
     setIsSubmitting(false);
     setSubmitSuccess(true);

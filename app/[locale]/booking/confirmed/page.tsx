@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { CheckCircle } from "lucide-react";
 import { format } from "date-fns";
@@ -10,13 +10,19 @@ import { getBookings, type Booking } from "@/lib/bookingStore";
 export default function BookingConfirmedPage() {
   const t = useTranslations("bookingConfirm");
   const params = useSearchParams();
+  const routeParams = useParams<{ locale: string }>();
+  const basePath = routeParams?.locale ? `/${routeParams.locale}` : "/";
   const bookingId = params.get("id");
   const [booking, setBooking] = useState<Booking | null>(null);
 
   useEffect(() => {
     if (!bookingId) return;
-    const found = getBookings().find((b) => b.id === bookingId) ?? null;
-    setBooking(found);
+    const load = async () => {
+      const data = await getBookings();
+      const found = data.find((b) => b.id === bookingId) ?? null;
+      setBooking(found);
+    };
+    load();
   }, [bookingId]);
 
   const stayDates = useMemo(() => {
@@ -58,7 +64,7 @@ export default function BookingConfirmedPage() {
         </div>
 
         <a
-          href="/"
+          href={basePath}
           className="inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-ocean-600 hover:bg-ocean-700 text-white font-semibold transition-colors"
         >
           {t("backHome")}
