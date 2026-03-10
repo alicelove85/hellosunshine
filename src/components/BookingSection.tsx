@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { DayPicker, DateRange } from "react-day-picker";
-import { differenceInDays, format } from "date-fns";
+import { differenceInDays, format, startOfDay } from "date-fns";
 import {
   Check,
   Loader2,
@@ -23,6 +23,7 @@ import {
   getRoomAvailabilityFromBookings,
   type Booking,
 } from "@/lib/bookingStore";
+import { supabase } from "@/lib/supabaseClient";
 import { getRoomSettings } from "@/lib/roomSettings";
 
 type RoomOption = {
@@ -77,6 +78,20 @@ export function BookingSection() {
     ];
     setRoomOptions(options);
     loadBookings();
+    if (!supabase) return;
+    const channel = supabase
+      .channel("bookings-realtime")
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "bookings" },
+        () => {
+          loadBookings();
+        }
+      )
+      .subscribe();
+    return () => {
+      supabase.removeChannel(channel);
+    };
   }, [tRooms]);
 
   const selectedRoomData = roomOptions.find((r) => r.id === selectedRoom);
@@ -110,6 +125,18 @@ export function BookingSection() {
       dateRange.from,
       dateRange.to
     );
+  };
+
+  const isDateBooked = (date: Date) => {
+    if (!selectedRoom) return false;
+    const target = startOfDay(date).getTime();
+    return bookings.some((booking) => {
+      if (booking.status !== "confirmed") return false;
+      if (booking.roomId !== selectedRoom) return false;
+      const checkIn = startOfDay(new Date(booking.checkIn)).getTime();
+      const checkOut = startOfDay(new Date(booking.checkOut)).getTime();
+      return target >= checkIn && target < checkOut;
+    });
   };
 
   const handleSubmit = async (e: FormEvent) => {
@@ -239,7 +266,10 @@ export function BookingSection() {
                   selected={dateRange}
                   onSelect={setDateRange}
                   numberOfMonths={2}
-                  disabled={{ before: new Date() }}
+                  disabled={(date) =>
+                    date < startOfDay(new Date()) ||
+                    (selectedRoom ? isDateBooked(date) : false)
+                  }
                   className="!font-sans"
                 />
               </div>
