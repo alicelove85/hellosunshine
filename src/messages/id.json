@@ -1,0 +1,236 @@
+{
+  "common": {
+    "bookNow": "Pesan Sekarang",
+    "learnMore": "Selengkapnya",
+    "perNight": "/malam",
+    "viewDetails": "Lihat Detail",
+    "selectDate": "Pilih Tanggal",
+    "guests": "Tamu",
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "totalPrice": "Total Harga",
+    "confirmBooking": "Konfirmasi Pemesanan",
+    "close": "Tutup"
+  },
+  "nav": {
+    "home": "Beranda",
+    "rooms": "Kamar",
+    "essentials": "Esensial",
+    "story": "Kisah Host",
+    "booking": "Pemesanan",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Hello Sunshine Nias",
+    "tagline": "Bright. Warm. Real.",
+    "description": "10 detik ke ombak. Matahari di kulitmu. Kafe tepat di depan. Welcome to Hello Sunshine — ruang lifestyle surfing cerah di Nias.",
+    "ctaPrimary": "Pesan Sekarang",
+    "ctaSecondary": "Temukan Ritme",
+    "location": "Pantai Sorake, Nias"
+  },
+  "about": {
+    "eyebrow": "SUNSHINE VIBE",
+    "title": "Sunshine Surfer vibe",
+    "description": "Cahaya hangat, aliran udara terbuka, dan ritme surfing yang sehat. Basecamp cerah untuk pagi tenang dan sesi aktif.",
+    "highlight1": "Sinar matahari hangat",
+    "highlight2": "Ruang berangin",
+    "highlight3": "Ritme surfing",
+    "locationTitle": "📍 Pantai Sorake Nias",
+    "locationDescription": "Dekat dengan break, ombak konsisten, dan suasana lokal yang santai."
+  },
+  "rooms": {
+    "eyebrow": "OUR ROOMS",
+    "title": "Temukan Kenyamanan Anda",
+    "subtitle": "Kamar cerah untuk gaya surfing berbeda",
+    "typesEyebrow": "TIPE KAMAR",
+    "typesTitle": "Lihat per Tipe Kamar",
+    "typesSubtitle": "Pilih tipe untuk melihat foto dan fitur.",
+    "whatsappTitle": "Info WhatsApp",
+    "whatsappDescription": "Hubungi kami di WhatsApp untuk ketersediaan dan harga.",
+    "whatsappCta": "Chat di WhatsApp",
+    "servicesTitle": "Layanan Tambahan",
+    "servicesSubtitle": "Kami bisa membantu layanan berikut.",
+    "servicesItems": [
+      "Les Surf 1:1\nmulai 300K / 2hr",
+      "Sewa Board\n100K / 1day",
+      "Sewa Motor\n100K / 1day",
+      "Jemput & Antar Bandara\n600K / 2hr30min",
+      "Sewa Mobil (termasuk sopir)\n2 jam 300K",
+      "Perpanjangan Visa\n1.5mil"
+    ],
+    "longStayDiscount": "Diskon Menginap Lama",
+    "longStayDescription": "Menginap lebih lama, hemat lebih banyak!",
+    "nights7": "7+ malam",
+    "nights14": "14+ malam",
+    "nights30": "30+ malam",
+    "discount": "diskon",
+    "priceTable": "Tabel Harga",
+    "roomType": "Tipe Kamar",
+    "perNightPrice": "1 Malam",
+    "nights7Price": "7 Malam (10% off)",
+    "nights14Price": "14 Malam (15% off)",
+    "nights30Price": "30 Malam (20% off)",
+    "oceanBreezeA": {
+      "name": "Ocean Sea Breeze A (50㎡)",
+      "description": "Kamar yang penuh cahaya matahari. Ruang tenang untuk menikmati pagi sebelum sesi pertama.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari, sofa, TV 50 inci",
+        "Dapur (kulkas, rice cooker, induksi, microwave)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "oceanBreezeB": {
+      "name": "Ocean Sea Breeze B (50㎡)",
+      "description": "Kamar yang penuh cahaya matahari. Ruang tenang untuk menikmati pagi sebelum sesi pertama.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari, sofa, TV 50 inci",
+        "Dapur (kulkas, rice cooker, induksi, microwave)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "oceanBreezeC": {
+      "name": "Ocean Sea Breeze C (50㎡)",
+      "description": "Kamar yang penuh cahaya matahari. Ruang tenang untuk menikmati pagi sebelum sesi pertama.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari, sofa, TV 50 inci",
+        "Dapur (kulkas, rice cooker, induksi, microwave)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "oceanBreezeD": {
+      "name": "Ocean Sea Breeze D (20㎡)",
+      "description": "Ringan, bersih, dan praktis. Opsi hemat untuk surfer yang fokus pada swell.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari",
+        "Dapur (kulkas, induksi)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "surferRoomA": {
+      "name": "Surfer Room A (20㎡)",
+      "description": "Sederhana. Bersih. Fungsional. Untuk surfer yang tinggal mengikuti swell.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari",
+        "Dapur (kulkas, induksi)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "surferRoomB": {
+      "name": "Surfer Room B (20㎡)",
+      "description": "Sederhana. Bersih. Fungsional. Untuk surfer yang tinggal mengikuti swell.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari",
+        "Dapur (kulkas, induksi)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "surferRoomC": {
+      "name": "Surfer Room C (20㎡)",
+      "description": "Sederhana. Bersih. Fungsional. Untuk surfer yang tinggal mengikuti swell.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari",
+        "Dapur (kulkas, induksi)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    },
+    "family": {
+      "name": "Kamar Keluarga (53㎡)",
+      "badge": "Hingga 4 tamu",
+      "description": "Ruang tamu dan area dapur terpisah, dengan ruang luas yang nyaman untuk keluarga.",
+      "features": [
+        "Tempat tidur (180*200)",
+        "Lemari, sofa, TV 50 inci",
+        "Dapur (kulkas, rice cooker, induksi, microwave)",
+        "AC, kipas, mesin cuci",
+        "Air panas, WiFi",
+        "Meja makan, kursi, rak pengering",
+        "Tisu, deterjen, sewa handuk termasuk"
+      ]
+    }
+  },
+  "essentials": {
+    "eyebrow": "SURF ESSENTIALS",
+    "title": "Dibuat untuk hari surfing nyata",
+    "subtitle": "Semua agar ritme tetap lancar.",
+    "essentialsTitle": "Esensial",
+    "essentialsList": ["Mesin cuci", "Rak pengering di tiap kamar", "Pengering bersama", "10 detik ke break", "Kafe tepat di depan"],
+    "coffeeTitle": "Surf & Coffee",
+    "coffeeDescription": "Sesi pagi → mandi → kopi di depan. Ini bukan kemewahan. Ini gaya hidup.",
+    "coffeeNote": "Cerah, sederhana, dan nyata.",
+    "positioningTitle": "Positioning",
+    "positioningPoints": ["Penginapan turis ✕", "Party house ✕", "Basecamp surfer berirama ✓"],
+    "positioningNote": "Senjata inti: 10 detik ke ombak + kafe depan + sistem laundry lengkap."
+  },
+  "story": {
+    "eyebrow": "Host Story",
+    "title": "Kenapa kami membangun tempat ini",
+    "description": "Ruang ini bukan sekadar tempat menginap atau bangunan, tetapi hasil dari waktu dan pilihan.\n\nPada masa COVID di tahun 2020, banyak hal berhenti. Baluse Surf School yang saat itu melayani orang Korea juga sulit beroperasi seperti biasa. Saat semua orang menunggu dan berharap keadaan membaik, kami memutuskan untuk menggunakan waktu itu dengan cara yang berbeda.\n\n“Gunakan waktu yang berhenti ini untuk menyiapkan masa depan.”\n\nSetelah keputusan itu, kami mulai membangun tempat baru pada Januari 2021. Ini bukan sekadar proyek penginapan, tetapi pekerjaan yang memuat arah hidup yang ingin kami bangun.\n\nKami membuat tempat ini untuk orang-orang yang mencintai ombak, yang mendapatkan energi baru lewat perjalanan, dan yang membutuhkan ruang untuk beristirahat sejenak.\n\nBangunan ini adalah hasil dari bisnis sewa pertama yang dibuat bersama oleh Irawan Wau dan Alice (Heo YoungEun).\nPilihan kecil yang dimulai di masa yang berhenti akhirnya menjadi satu ruang. Kami berharap cerita-cerita baru dimulai di sini juga.",
+    "promiseTitle": "Janji kami",
+    "promiseDescription": "Hospitality hangat, ruang yang jujur, dan semua yang dibutuhkan untuk surfing setiap hari."
+  },
+  "booking": {
+    "eyebrow": "BOOKING",
+    "title": "Pemesanan",
+    "subtitle": "Cek ketersediaan per kamar lewat kalender.",
+    "description": "Pilih tanggal dan kamar, lalu kirim permintaan pemesanan. Kami konfirmasi dengan cepat.",
+    "cta": "Chat di WhatsApp",
+    "selectRoom": "Pilih kamar",
+    "selectDates": "Pilih tanggal",
+    "available": "Tersedia",
+    "unavailable": "Tidak tersedia",
+    "nights": "malam",
+    "contact": "Data tamu",
+    "name": "Nama lengkap",
+    "email": "Alamat email",
+    "phone": "Nomor telepon",
+    "specialRequests": "Permintaan khusus",
+    "processing": "Memproses...",
+    "submit": "Kirim permintaan",
+    "success": "Permintaan berhasil dikirim.",
+    "summary": "Ringkasan pemesanan",
+    "whatsappNote": "Untuk pertanyaan cepat, hubungi kami di WhatsApp.",
+    "whatsappCta": "Chat di WhatsApp"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Terhubung dengan kami",
+    "address": "Pulau Nias, Sumatera Utara, Indonesia",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "Surf day yang cerah, hangat, dan nyata.",
+    "copyright": "© 2024 Hello Sunshine. Hak cipta dilindungi.",
+    "adminLink": "Halaman Admin"
+  }
+}
+

@@ -1,0 +1,236 @@
+{
+  "common": {
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "perNight": "/night",
+    "viewDetails": "View Details",
+    "selectDate": "Select Date",
+    "guests": "Guests",
+    "checkIn": "Check In",
+    "checkOut": "Check Out",
+    "totalPrice": "Total Price",
+    "confirmBooking": "Confirm Booking",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "essentials": "Essentials",
+    "story": "Host Story",
+    "booking": "Booking",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hello Sunshine Nias",
+    "tagline": "Bright. Warm. Real.",
+    "description": "10 seconds to the wave. Sun on your skin. Coffee next door. Welcome to Hello Sunshine — a bright surf lifestyle space in Nias.",
+    "ctaPrimary": "Book Now",
+    "ctaSecondary": "Find Your Rhythm",
+    "location": "Sorake Beach, Nias"
+  },
+  "about": {
+    "eyebrow": "SUNSHINE VIBE",
+    "title": "Sunshine Surfer vibe",
+    "description": "Warm light, open airflow, and the easy rhythm of surf days. This is a bright basecamp built for calm mornings and active sessions.",
+    "highlight1": "Sun on your skin",
+    "highlight2": "Breezy, open spaces",
+    "highlight3": "Ocean-ready rhythm",
+    "locationTitle": "📍 Nias Sorake Beach",
+    "locationDescription": "Steps from the break, with consistent waves and a relaxed local vibe."
+  },
+  "rooms": {
+    "eyebrow": "Our Rooms",
+    "title": "Find Your Comfort",
+    "subtitle": "Bright rooms tailored to your surf style",
+    "typesEyebrow": "Room Types",
+    "typesTitle": "Browse by Room Type",
+    "typesSubtitle": "Pick a type to see photos and features.",
+    "whatsappTitle": "WhatsApp Inquiry",
+    "whatsappDescription": "Contact us on WhatsApp for availability and rates.",
+    "whatsappCta": "Chat on WhatsApp",
+    "servicesTitle": "Extra Services",
+    "servicesSubtitle": "We can help with these services.",
+    "servicesItems": [
+      "1:1 Surf Lesson\nfrom 300K / 2hr",
+      "Board Rental\n100K / 1day",
+      "Bike Rental\n100K / 1day",
+      "Airport Pickup & Drop\n600K / 2hr30min",
+      "Car Rental (driver included)\n2 hours 300K",
+      "Visa Extension\n1.5mil"
+    ],
+    "longStayDiscount": "Long Stay Discount",
+    "longStayDescription": "Stay longer and save more!",
+    "nights7": "7+ nights",
+    "nights14": "14+ nights",
+    "nights30": "30+ nights",
+    "discount": "off",
+    "priceTable": "Price Table",
+    "roomType": "Room Type",
+    "perNightPrice": "1 Night",
+    "nights7Price": "7 Nights (10% off)",
+    "nights14Price": "14 Nights (15% off)",
+    "nights30Price": "30 Nights (20% off)",
+    "oceanBreezeA": {
+      "name": "Ocean Sea Breeze A (50㎡)",
+      "description": "A sun-filled room. A calm space to enjoy a quiet morning before the first session.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe, sofa, TV 50inch",
+        "Kitchen (fridge, rice cooker, induction, microwave)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi, Hair Dryer",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel"
+      ]
+    },
+    "oceanBreezeB": {
+      "name": "Ocean Sea Breeze B (50㎡)",
+      "description": "A sun-filled room. A calm space to enjoy a quiet morning before the first session.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe, sofa, TV 50inch",
+        "Kitchen (fridge, rice cooker, induction, microwave)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "oceanBreezeC": {
+      "name": "Ocean Sea Breeze C (50㎡)",
+      "description": "A sun-filled room. A calm space to enjoy a quiet morning before the first session.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe, sofa, TV 50inch",
+        "Kitchen (fridge, rice cooker, induction, microwave)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "oceanBreezeD": {
+      "name": "Ocean Sea Breeze D (20㎡)",
+      "description": "Light, clean, and practical. A value-friendly option for surfers focused on the swell.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe",
+        "Kitchen (fridge, induction)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "surferRoomA": {
+      "name": "Surfer Room A (20㎡)",
+      "description": "Simple. Clean. Functional. Designed for surfers who stay for the swell.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe",
+        "Kitchen (fridge, induction)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "surferRoomB": {
+      "name": "Surfer Room B (20㎡)",
+      "description": "Simple. Clean. Functional. Designed for surfers who stay for the swell.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe",
+        "Kitchen (fridge, induction)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "surferRoomC": {
+      "name": "Surfer Room C (20㎡)",
+      "description": "Simple. Clean. Functional. Designed for surfers who stay for the swell.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe",
+        "Kitchen (fridge, induction)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    },
+    "family": {
+      "name": "Family Room (53㎡)",
+      "badge": "Up to 4 guests",
+      "description": "Living room and kitchen areas are separated, with a spacious layout ideal for families staying together.",
+      "features": [
+        "Bed (180*200)",
+        "Wardrobe, sofa, TV 50inch",
+        "Kitchen (fridge, rice cooker, induction, microwave)",
+        "AC, fan, washing machine",
+        "Hot water, WiFi",
+        "Dining table, chairs, drying rack",
+        "Tissues, detergent, towel rental included"
+      ]
+    }
+  },
+  "essentials": {
+    "eyebrow": "Surf Essentials",
+    "title": "Built for Real Surf Days",
+    "subtitle": "Everything you need to keep the rhythm smooth.",
+    "essentialsTitle": "Essentials",
+    "essentialsList": ["Washing Machine", "Drying Racks", "Shared Dryer", "10 seconds to the break", "Café right in front"],
+    "coffeeTitle": "Surf & Coffee",
+    "coffeeDescription": "Morning session → Shower → Coffee next door. This is not luxury. This is lifestyle.",
+    "coffeeNote": "Bright, simple, and real.",
+    "positioningTitle": "The Positioning",
+    "positioningPoints": ["Tourist stay ✕", "Party house ✕", "Rhythm surfer basecamp ✓"],
+    "positioningNote": "The core weapon: 10 seconds to the wave + café next door + full laundry setup."
+  },
+  "story": {
+    "eyebrow": "Host Story",
+    "title": "Why we built this space",
+    "description": "This space is not just a place to stay or a building, but the result of time and choices.\n\nDuring the COVID period in 2020, many things stopped. The Baluse Surf School, which had been operated for Koreans, also became difficult to run normally. While everyone waited and hoped things would get better, we decided to use that time in a different way.\n\n“Let’s use this paused time to prepare for the future.”\n\nAfter that decision, we began building a new place in January 2021. This was not simply a lodging project, but a work that holds the direction of the life we want to build.\n\nWe created this place for people who love waves, people who gain new energy through travel, and people who need a place to rest for a while.\n\nThis building is the first rental business created together by Irawan Wau and Alice (Heo YoungEun).\nA small choice that began in a paused time eventually became one space. We hope that new stories begin here as well.",
+    "promiseTitle": "Our promise",
+    "promiseDescription": "Warm hospitality, honest spaces, and everything you need to surf well every day."
+  },
+  "booking": {
+    "eyebrow": "Booking",
+    "title": "Book Your Stay",
+    "subtitle": "Check availability by room with the calendar.",
+    "description": "Choose dates and a room, then send a booking request. We will confirm quickly.",
+    "cta": "Chat on WhatsApp",
+    "selectRoom": "Select a room",
+    "selectDates": "Select dates",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "nights": "nights",
+    "contact": "Guest details",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "specialRequests": "Special requests",
+    "processing": "Processing...",
+    "submit": "Send booking request",
+    "success": "Your request has been received.",
+    "summary": "Booking summary",
+    "whatsappNote": "For quick questions, contact us on WhatsApp.",
+    "whatsappCta": "Chat on WhatsApp"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch",
+    "address": "Nias Island, North Sumatra, Indonesia",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "tagline": "Bright, warm, and real surf days.",
+    "copyright": "© 2024 Hello Sunshine. All rights reserved.",
+    "adminLink": "Admin Page"
+  }
+}
+

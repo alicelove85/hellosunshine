@@ -1,0 +1,241 @@
+{
+  "common": {
+    "bookNow": "예약하기",
+    "learnMore": "자세히 보기",
+    "perNight": "/박",
+    "viewDetails": "상세보기",
+    "selectDate": "날짜 선택",
+    "guests": "투숙객",
+    "checkIn": "체크인",
+    "checkOut": "체크아웃",
+    "totalPrice": "총 가격",
+    "confirmBooking": "예약 확인",
+    "close": "닫기"
+  },
+  "nav": {
+    "home": "홈",
+    "rooms": "객실",
+    "essentials": "객실 특징",
+    "story": "호스트 스토리",
+    "booking": "예약",
+    "contact": "연락처"
+  },
+  "hero": {
+    "title": "Hello Sunshine Nias",
+    "tagline": "Bright. Warm. Real.",
+    "description": "파도까지 10초. 햇살, 바다, Hello Sunshine Nias는 서퍼를 위한 밝고 따뜻한 공간입니다.",
+    "ctaPrimary": "예약하기",
+    "ctaSecondary": "객실 구경하기",
+    "location": "니아스 소라케 비치"
+  },
+  "about": {
+    "eyebrow": "SUNSHINE VIBE",
+    "title": "Sunshine Surfer vibe",
+    "description": "따뜻한 햇살, 통풍 잘 되는 구조, 그리고 서핑 리듬이 살아있는 베이스캠프. 밝고 건강한 하루를 위한 공간입니다.",
+    "highlight1": "햇살 가득",
+    "highlight2": "바람이 통하는 구조",
+    "highlight3": "서핑 리듬",
+    "locationTitle": "📍 니아스 소라케 비치",
+    "locationDescription": "파도까지 걸어서 10초. 매일 좋은 파도와 여유로운 분위기를 느껴보세요."
+  },
+  "rooms": {
+    "eyebrow": "OUR ROOMS",
+    "title": "편안함을 찾으세요",
+    "subtitle": "서핑 스타일에 맞춘 밝은 객실",
+    "typesEyebrow": "ROOM TYPES",
+    "typesTitle": "방 타입별 보기",
+    "typesSubtitle": "원하는 타입을 선택해 사진과 특징을 확인하세요.",
+    "whatsappTitle": "WhatsApp 문의( English )",
+    "whatsappDescription": "가격 및 예약 가능 여부는 WhatsApp으로 문의해 주세요.",
+    "whatsappCta": "WhatsApp으로 문의하기",
+    "servicesTitle": "추가 서비스",
+    "servicesSubtitle": "필요한 서비스를 함께 도와드립니다.",
+    "servicesItems": [
+      "서핑레슨 1:1\n300K 부터 / 2hr",
+      "보드 렌탈\n100K / 1day",
+      "바이크 렌탈\n100K / 1day",
+      "공항 픽업, 드랍\n600K / 2hr30min",
+      "차량렌트(기사포함)\n2시간 300K",
+      "비자 연장\n1.5mil"
+    ],
+    "longStayDiscount": "장기 숙박 할인",
+    "longStayDescription": "오래 머물수록 더 많이 절약하세요!",
+    "nights7": "7박 이상",
+    "nights14": "14박 이상",
+    "nights30": "30박 이상",
+    "discount": "할인",
+    "priceTable": "객실별 가격표",
+    "roomType": "객실 타입",
+    "perNightPrice": "1박",
+    "nights7Price": "7박 (10% 할인)",
+    "nights14Price": "14박 (15% 할인)",
+    "nights30Price": "30박 (20% 할인)",
+    "oceanBreezeA": {
+      "name": "Ocean Sea Breeze A ( 50㎡ )",
+      "description": "3층 햇살이 가득 들어오는 객실. 방안에서 오늘 탈 파도 체크가 가능해요!",
+      "features": [
+        "테라스",
+        "침대 (180*200)",
+        "장롱, 쇼파, TV50inch",
+        "주방 (냉장고, 밥통, 인덕션, 전자레인지)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "oceanBreezeB": {
+      "name": "Ocean Sea Breeze B ( 50㎡ )",
+      "description": "3층 햇살이 가득 들어오는 객실. 방안에서 오늘 탈 파도 체크가 가능해요!",
+      "features": [
+        "테라스",
+        "침대 (180*200)",
+        "장롱, 쇼파, TV50inch",
+        "주방 (냉장고, 밥통, 인덕션, 전자레인지)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "oceanBreezeC": {
+      "name": "Ocean Sea Breeze C ( 50㎡ )",
+      "description": "2층 햇살이 가득 들어오는 오션뷰 객실. 방안에서 서핑스팟이 바로 보여요",
+      "features": [
+        "테라스",
+        "침대 (180*200)",
+        "장롱, 쇼파, TV50inch",
+        "주방 (냉장고, 밥통, 인덕션, 전자레인지)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올 렌탈 포함"
+      ]
+    },
+    "oceanBreezeD": {
+      "name": "Ocean Sea Breeze D ( 20㎡ )",
+      "description": "2층 가볍고 실용적인 오션뷰 룸. 합리적인 가격으로 서핑에 집중할 수 있습니다.",
+      "features": [
+        "테라스",
+        "침대 (180*200)",
+        "장롱, 쇼파, TV50inch",
+        "주방 (냉장고, 밥통, 인덕션, 전자레인지)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "surferRoomA": {
+      "name": "Surfer Room A (20㎡ )",
+      "description": "1층 방과 부엌이 분리된 실용적이고 깔끔한 구조",
+      "features": [
+        "침대 (180*200)",
+        "장롱",
+        "주방 (냉장고, 인덕션)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "surferRoomB": {
+      "name": "Surfer Room B (20㎡ )",
+      "description": "1층 실용적이고 깔끔한 구조. 부엌과 방, 욕실, 화장실 분리 구조 장기로 머무는 서퍼에게 어울립니다.",
+      "features": [
+        "침대 (180*200)",
+        "장롱",
+        "주방 (냉장고, 인덕션)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "surferRoomC": {
+      "name": "Surfer Room C (20㎡ )",
+      "description": "실용적이고 깔끔한 구조. 파도를 따라 머무는 서퍼에게 어울립니다.",
+      "features": [
+        "침대 (180*200)",
+        "장롱",
+        "주방 (냉장고, 인덕션)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    },
+    "family": {
+      "name": "패밀리룸 (53㎡)",
+      "badge": "최대 4인",
+      "description": "1층 거실과 주방, 부엌이 분리 되어 있고 넓고 가족이 함께 머물기 좋은 공간입니다. 거실에서 바다가 보여요",
+      "features": [
+        "마당",
+        "침대 (180*200)",
+        "장롱, 쇼파, TV50inch",
+        "주방 (냉장고, 밥통, 인덕션, 전자레인지)",
+        "에어컨, 선풍기, 세탁기",
+        "온수, WIFI, 드라이기",
+        "식탁, 의자, 건조대",
+        "티슈, 세제, 타올"
+      ]
+    }
+  },
+  "essentials": {
+    "eyebrow": "객실 특징",
+    "title": "진짜 서핑트립을 위한 공간",
+    "subtitle": "리듬이 끊기지 않게.",
+    "essentialsTitle": "에센셜",
+    "essentialsList": ["세탁기", "각 객실 건조대", "공용 건조기", "파도까지 10초", "숙소 바로 앞 카페"],
+    "coffeeTitle": "Surf & Coffee",
+    "coffeeDescription": "아침 세션 → 샤워 → 바로 앞 카페. 럭셔리가 아니라 라이프스타일.",
+    "coffeeNote": "밝고, 단순하고, 리얼하게.",
+    "positioningTitle": "포지셔닝",
+    "positioningPoints": ["관광객 숙소 ❌", "파티하우스 ❌", "리듬 있는 서퍼 베이스캠프 ⭕"],
+    "positioningNote": "핵심 무기: 10초 거리 + 앞 카페 + 세탁 시스템."
+  },
+  "story": {
+    "eyebrow": "Host Story",
+    "title": "왜 이 공간을 만들었는지",
+    "description": "이 공간은 단순히 숙소나 건물이 아니라 하나의 시간과 선택이 만들어 낸 결과입니다.\n\n2020년 코로나 시기, 많은 일들이 멈추었습니다. 한국인을 대상으로 운영하던 발루세 서핑스쿨 역시 정상적으로 운영하기 어려운 상황이 되었습니다. 모두가 기다리며 상황이 좋아지기를 바라던 시기였지만, 우리는 그 시간을 다른 방식으로 사용하기로 했습니다.\n\n“지금 멈춰 있는 이 시간을 미래를 준비하는 시간으로 쓰자.”\n\n그렇게 결정한 뒤, 2021년 1월부터 새로운 건물을 짓기 시작했습니다. 이 공간은 단순히 숙소를 짓는 프로젝트가 아니라 앞으로 우리가 만들어 갈 삶의 방향을 담는 작업이었습니다.\n\n파도를 좋아하는 사람들, 여행을 통해 새로운 에너지를 얻는 사람들, 그리고 잠시 쉬어갈 수 있는 공간이 필요한 사람들을 위해 이 장소를 만들었습니다.\n\n이 건물은 Irawan Wau와 Alice (Heo YoungEun)이 함께 만들어 낸 첫 번째 임대사업의 결과물입니다. 멈춰 있던 시간 속에서 시작된 작은 선택이 결국 하나의 공간으로 완성되었습니다. 그리고 이곳에서 또 다른 이야기들이 시작되기를 바랍니다.",
+    "promiseTitle": "약속",
+    "promiseDescription": "따뜻한 환대, 정직한 공간, 매일 좋은 서핑을 위한 준비."
+  },
+  "booking": {
+    "eyebrow": "BOOKING",
+    "title": "예약",
+    "subtitle": "객실별 달력으로 예약 가능 날짜를 확인하세요.",
+    "description": "날짜와 객실을 선택한 뒤 예약 요청을 보내주세요. 빠르게 확인해 드립니다.",
+    "cta": "WhatsApp으로 문의하기",
+    "selectRoom": "객실 선택",
+    "selectDates": "날짜 선택",
+    "available": "예약 가능",
+    "unavailable": "예약 불가",
+    "nights": "박",
+    "contact": "예약자 정보",
+    "name": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "specialRequests": "요청사항",
+    "processing": "처리 중...",
+    "submit": "예약 요청 보내기",
+    "success": "예약 요청이 접수되었습니다.",
+    "summary": "예약 요약",
+    "whatsappNote": "빠른 문의는 WhatsApp으로 연결해 주세요.",
+    "whatsappCta": "WhatsApp으로 문의하기"
+  },
+  "contact": {
+    "title": "연락처",
+    "subtitle": "문의하기",
+    "address": "인도네시아 북수마트라 니아스 섬",
+    "whatsapp": "WhatsApp",
+    "email": "이메일",
+    "instagram": "인스타그램"
+  },
+  "footer": {
+    "tagline": "밝고 따뜻한 서핑 리듬.",
+    "copyright": "© 2024 Hello Sunshine. All rights reserved.",
+    "adminLink": "관리자 페이지"
+  }
+}
+
