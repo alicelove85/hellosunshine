@@ -112,3 +112,10 @@ body {
   color: #ef4444;
   opacity: 0.95;
 }
+
+.rdp-day[aria-disabled="true"],
+.rdp-day[aria-disabled="true"] .rdp-day_button,
+.rdp-day[aria-disabled="true"] button {
+  color: #ef4444;
+  opacity: 0.95;
+}
