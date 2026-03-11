@@ -131,7 +131,7 @@ export function BookingSection() {
     if (!selectedRoom) return false;
     const target = startOfDay(date).getTime();
     return bookings.some((booking) => {
-      if (booking.status !== "confirmed") return false;
+      if ((booking.status || "").toLowerCase() !== "confirmed") return false;
       if (booking.roomId !== selectedRoom) return false;
       const checkIn = startOfDay(new Date(booking.checkIn)).getTime();
       const checkOut = startOfDay(new Date(booking.checkOut)).getTime();
