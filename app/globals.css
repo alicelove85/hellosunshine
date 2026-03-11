@@ -106,3 +106,9 @@ body {
 .rdp-day_range_middle {
   background-color: var(--rdp-background-color);
 }
+
+.rdp-day_disabled,
+.rdp-day_disabled .rdp-day_button {
+  color: #ef4444;
+  opacity: 0.95;
+}
