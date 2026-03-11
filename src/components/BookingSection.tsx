@@ -267,7 +267,8 @@ export function BookingSection() {
                   onSelect={setDateRange}
                   numberOfMonths={2}
                   disabled={(date) =>
-                    date < startOfDay(new Date()) ||
+                    startOfDay(date).getTime() <
+                      startOfDay(new Date()).getTime() ||
                     (selectedRoom ? isDateBooked(date) : false)
                   }
                   className="!font-sans"
