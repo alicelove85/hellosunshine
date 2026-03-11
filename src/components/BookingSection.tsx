@@ -266,6 +266,7 @@ export function BookingSection() {
                   selected={dateRange}
                   onSelect={setDateRange}
                   numberOfMonths={2}
+                  fromDate={startOfDay(new Date())}
                   disabled={(date) =>
                     startOfDay(date).getTime() <
                       startOfDay(new Date()).getTime() ||
