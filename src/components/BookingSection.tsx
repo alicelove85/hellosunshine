@@ -79,7 +79,8 @@ export function BookingSection() {
     setRoomOptions(options);
     loadBookings();
     if (!supabase) return;
-    const channel = supabase
+    const client = supabase;
+    const channel = client
       .channel("bookings-realtime")
       .on(
         "postgres_changes",
@@ -90,7 +91,7 @@ export function BookingSection() {
       )
       .subscribe();
     return () => {
-      supabase.removeChannel(channel);
+      client.removeChannel(channel);
     };
   }, [tRooms]);
 
