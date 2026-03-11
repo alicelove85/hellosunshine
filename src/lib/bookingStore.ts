@@ -38,6 +38,13 @@ type BookingRow = {
   created_at: string;
 };
 
+const normalizeStatus = (status: string): Booking["status"] => {
+  const normalized = status.toLowerCase().trim();
+  if (normalized === "confirmed") return "confirmed";
+  if (normalized === "cancelled") return "cancelled";
+  return "pending";
+};
+
 const toBooking = (row: BookingRow): Booking => ({
   id: row.id,
   roomId: row.room_id,
@@ -51,7 +58,7 @@ const toBooking = (row: BookingRow): Booking => ({
   email: row.email,
   phone: row.phone,
   specialRequests: row.special_requests,
-  status: row.status,
+  status: normalizeStatus(row.status),
   createdAt: row.created_at,
 });
 
